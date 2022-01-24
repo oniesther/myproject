@@ -1,0 +1,146 @@
+/* import file */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+
+}
+nav{
+  padding: 0 50px;
+  width: 100%;
+
+  
+}
+.flex{
+  background-color:whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  
+
+}
+span:hover{
+  color: blue;
+}
+#fes{
+  color: red;
+}
+#fes:hover{
+  color: blue;
+}
+#box:hover{
+  color: blue;
+}
+#drop:hover{
+  color: rgb(66, 66, 116);
+}
+.img{
+  width: 190px;
+}
+ li{
+   list-style: none;
+ }
+ a{
+   text-decoration: none;
+ }
+
+.footer{
+    background-color: #000;
+     color: #fff !important;
+  }
+  .footer a{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+  }
+
+  .footer .social_media_icons i {
+    padding: 5px;
+  }
+
+  .footer_bottom{
+    background-color: #FFF !important;
+  }
+
+  .footer .footer_bottom img{
+    width: 90px;
+    height: 21px;
+  }
+
+  .footer_bottom p {
+    color: #000;
+    font-size: 14px;
+  }
+  .popular_product .description{
+    font-size: 13px !important;
+    color: #0000ff;
+    font-weight: 300;
+    margin-bottom: 0 !important;
+  }
+  
+  .popular_product .price{
+    font-size: 12px !important;
+    color: #c70000;
+    font-weight: 300;
+    margin-top: 5px !important;
+  }
+  .popular_product{
+    display: flex;
+  }
+
+  .new_festival{
+    position: absolute;
+  }
+
+.new_festival .new{
+  background-color: #000;
+  color: #fff;
+  font-size: 12px;
+  padding: 3px 8px;
+}
+
+.new_festival .festival{
+  background-color: #c70000;
+  font-size: 12px;
+  color: #fff;
+  padding: 3px 8px;
+}
+
+.border{
+  border: 1.5px solid #0000ff !important;
+  width: 90px;
+}
+
+.form-selection{
+    background-color: #fff;
+    border-color: #d3d3d3;
+    color: #363636;
+    cursor: pointer;
+    display: block;
+    font-size: 1em;
+    max-width: 100%;
+    outline: 0;
+}
+
+.flex-column{
+  flex-direction: column !important;
+}
+
+.breadcrumb_link{
+  font-size: 11px;
+  text-transform: uppercase;
+} 
+#fa{
+  background-color: blue;
+}
+  
+
